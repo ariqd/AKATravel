@@ -1,0 +1,151 @@
+nav{
+  background-color: #FB8C00;
+  border: 1px solid #FB8C00;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  width: 100%;
+  padding: 20px 0;
+  position: absolute;
+  z-index: 1000;
+}
+
+nav a{
+  color: #FAFAFA;
+  padding: 15px;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+nav a:hover{
+  padding-top: 23px;
+  padding-bottom: 23px;
+  color: #fff;
+  background-color: #F57C00;
+  text-decoration: none;
+}
+
+.jumbotron{
+  height: 550px;
+}
+
+.jumbotron.jumbotron-mini{
+  height: 150px;
+}
+
+.jumbotron.jumbotron-mini h1.title{
+  font-size: 40px;
+  color: #fff;
+  margin-top: 80px;
+}
+
+.jumbotron .bg{
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  position: fixed;
+}
+
+.jumbotron .logo{
+  padding: 90px 0 20px 0;
+  width: 300px;
+  position: relative;
+  display: block;
+  margin: auto;
+}
+
+.panel{
+  background: #eee;
+  z-index: 1000;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.panel-jumbotron{
+  border: 5px solid #F57C00;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.10), 0 6px 6px rgba(0,0,0,0.20);
+}
+
+.panel-main{
+  margin-top: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05), 0 6px 6px rgba(0,0,0,0.07);
+}
+
+.main{
+  box-shadow: 0px 10px 5px rgba(0,0,0,0.19), 0px -10px 5px rgba(0,0,0,0.23);
+  background-color: #eee;
+  height: auto;
+  width: 100%;
+  position: absolute;
+}
+
+.main.main-content{
+  padding: 20px 0;
+}
+
+.main h1{
+  font-size: 32px;
+}
+
+.main .title{
+  margin-top: 55px;
+  text-align: center;
+  line-height: 15px;
+}
+
+.main .title.title-separator{
+  border-bottom: 1px solid #F57C00;
+}
+
+.etalase{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.etalase .fa{
+  font-size: 60px;
+  color: #F57C00;
+}
+
+.footer {
+  margin-top: 30px;
+  position: relative;
+  background-color: #FFF3E0;
+  padding: 20px;
+  width: 100%;
+}
+
+.footer img {
+  display: block;
+  margin: auto;
+}
+
+.or{
+  text-align: center;
+  vertical-align: middle;
+  line-height: 200px;
+  text-decoration: underline;
+}
+
+/* Utilities */
+.text-center{
+  text-align: center;
+}
+
+.btn-aka{
+  color: #fff;
+  background-color: #009688;
+  border-radius: 3px;
+}
+
+.btn-aka:hover{
+  color: #fff;
+  background-color: #00796B;
+  border-radius: 3px;
+}
+
+.sidebar{
+  position: fixed;
+  /*display:*/
+  width:34%;
+  top: 10px;
+  z-index: 2;
+}
